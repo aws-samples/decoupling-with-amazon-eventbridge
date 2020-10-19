@@ -1,17 +1,11 @@
-## My Project
+# SVS402 - Decoupling serverless workloads with Amazon EventBridge
 
-TODO: Fill this README out!
+The applications in this repo are examples from the AWS re:Invent 2020 session "SVS402 - Decoupling serverless workloads with Amazon EventBridge". Each example has its own README.md file for additional instructions.
 
-Be sure to:
+Important: these applications use various AWS services and there are costs associated with these services after the Free Tier usage. Please see the [AWS Pricing page](https://aws.amazon.com/pricing/) for details. You are responsible for any AWS costs incurred. No warranty is implied in these examples.
 
-* Change the title in this README
-* Edit your repository description on GitHub
+==============================================
 
-## Security
+Copyright 2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
+SPDX-License-Identifier: MIT-0
