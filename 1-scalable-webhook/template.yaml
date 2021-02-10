@@ -84,20 +84,6 @@ Resources:
       Queues:
         - Ref: MySqsQueue          
 
-  # Use AWS::SNS::Subscription resource to apply filter policy
-  EventBridgeToToSqsPolicy:
-    Type: AWS::SQS::QueuePolicy
-    Properties:
-      PolicyDocument:
-        Statement:
-        - Effect: Allow
-          Principal:
-            Service: events.amazonaws.com
-          Action: SQS:SendMessage
-          Resource:  !GetAtt MySqsQueue.Arn
-      Queues:
-        - Ref: MySqsQueue
-
 Outputs:
   ApiEndpoint:
     Description: "HTTP API endpoint URL"
